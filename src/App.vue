@@ -116,13 +116,16 @@
     <section class="-mt-32 max-w-7xl mx-auto relative z-10 pb-32 px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
       <h2 class="sr-only" id="contact-heading">Contact us</h2>
       <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-20 lg:gap-x-8">
-        <div v-for="link in supportLinks" :key="link.name" class="flex flex-col bg-white rounded-2xl shadow-xl">
-          <div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
+        <div v-for="link in supportLinks" :key="link.name" class="flex flex-col bg-white rounded-2xl shadow-xl ">
+          <div class="flex-2 relative pt-16 px-6 pb-8 md:px-8 ">
             <div class="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2 small-box-gradient">
               <component :is="link.icon" class="h-6 w-6 text-white" aria-hidden="true" />
             </div>
             <h3 class="text-xl font-medium text-gray-900">{{ link.name }}</h3>
             <p class="mt-4 text-base text-gray-500">{{ link.description }}</p>
+            <p class="mt-4 text-base text-gray-500">{{ link.description2 }}</p>
+            <p class="mt-4 text-base text-gray-500">{{ link.description3 }}</p>
+            <p class="mt-4 text-base text-gray-500">{{ link.description4 }}</p>
           </div>
         </div>
       </div>
@@ -132,121 +135,119 @@
 
 
 <!---------- FEATURES --------------->
-<div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+<div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8 background-menu">
   <div class="absolute inset-0">
-    <div class="bg-white h-1/3 sm:h-2/3"></div>
+    <div class="h-1/3 sm:h-2/3 background-menu"></div>
   </div>
-  <div class="relative max-w-7xl mx-auto">
+  <div class="relative max-w-7xl mx-auto ">
     <div class="text-center">
-      <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Features</h2>
-      <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.</p>
+      <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center hero-text-color">Key Features</h2>
     </div>
     <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
+          <img class="h-48 w-full object-cover" src="src/assets/images/feat-img01.png" alt="">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-            <p class="text-sm font-medium text-indigo-600">
-              <a href="#" class="hover:underline"> Article </a>
-            </p>
             <a href="#" class="block mt-2">
-              <p class="text-xl font-semibold text-gray-900">Boost your conversion rate</p>
-              <p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.</p>
+              <p class="text-xl font-semibold text-gray-900">Multi-Address Send</p>
+              <p class="mt-3 text-base text-gray-500">This is an exciting feature that supports the sending of Monero to multiple destinations or wallets within one single transaction.</p>
             </a>
-          </div>
-          <div class="mt-6 flex items-center">
-            <div class="flex-shrink-0">
-              <a href="#">
-                <span class="sr-only">Roel Aufderehar</span>
-                <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-              </a>
-            </div>
-            <div class="ml-3">
-              <p class="text-sm font-medium text-gray-900">
-                <a href="#" class="hover:underline"> Roel Aufderehar </a>
-              </p>
-              <div class="flex space-x-1 text-sm text-gray-500">
-                <time datetime="2020-03-16"> Mar 16, 2020 </time>
-                <span aria-hidden="true"> &middot; </span>
-                <span> 6 min read </span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
 
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
+          <img class="h-48 w-full object-cover" src="src/assets/images/feat-img02.png" alt="">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-            <p class="text-sm font-medium text-indigo-600">
-              <a href="#" class="hover:underline"> Video </a>
-            </p>
             <a href="#" class="block mt-2">
-              <p class="text-xl font-semibold text-gray-900">How to use search engine optimization to drive sales</p>
-              <p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.</p>
+              <p class="text-xl font-semibold text-gray-900">Lightweight Nature For Clients</p>
+              <p class="mt-3 text-base text-gray-500">Many multi-asset wallet services choose to run the full Monero node themselves, which can mean that their wallet users are forced to download the entire Monero blockchain. 
+                This takes an extremely long time to do andt will also use up a very large amount of space on the user’s device. <br><br>
+
+                We offer a lightweight wallet experience, where we run all of the heavy stuff on our backend. This means that neither our enterprise partners nor the end wallet users will ever have to download the entire Monero blockchain. 
+                This ensures that wallet users will have a completely lightweight and smooth experience.
+                </p>
             </a>
-          </div>
-          <div class="mt-6 flex items-center">
-            <div class="flex-shrink-0">
-              <a href="#">
-                <span class="sr-only">Brenna Goyette</span>
-                <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-              </a>
-            </div>
-            <div class="ml-3">
-              <p class="text-sm font-medium text-gray-900">
-                <a href="#" class="hover:underline"> Brenna Goyette </a>
-              </p>
-              <div class="flex space-x-1 text-sm text-gray-500">
-                <time datetime="2020-03-10"> Mar 10, 2020 </time>
-                <span aria-hidden="true"> &middot; </span>
-                <span> 4 min read </span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
 
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
+          <img class="h-48 w-full object-cover" src="src/assets/images/feat-img03.png" alt="">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-            <p class="text-sm font-medium text-indigo-600">
-              <a href="#" class="hover:underline"> Case Study </a>
-            </p>
             <a href="#" class="block mt-2">
-              <p class="text-xl font-semibold text-gray-900">Improve your customer experience</p>
-              <p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.</p>
+              <p class="text-xl font-semibold text-gray-900">Protocol Updates</p>
+              <p class="mt-3 text-base text-gray-500">We will handle all protocol updates in-house; this also includes bi-annual hardfork updates. 
+                If any additional updates are required to fall in line with the Monero project, we will action these on our end.</p>
             </a>
-          </div>
-          <div class="mt-6 flex items-center">
-            <div class="flex-shrink-0">
-              <a href="#">
-                <span class="sr-only">Daniela Metz</span>
-                <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-              </a>
-            </div>
-            <div class="ml-3">
-              <p class="text-sm font-medium text-gray-900">
-                <a href="#" class="hover:underline"> Daniela Metz </a>
-              </p>
-              <div class="flex space-x-1 text-sm text-gray-500">
-                <time datetime="2020-02-12"> Feb 12, 2020 </time>
-                <span aria-hidden="true"> &middot; </span>
-                <span> 11 min read </span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+        <div class="flex-shrink-0">
+          <img class="h-48 w-full object-cover" src="src/assets/images/feat-img04.png" alt="">
+        </div>
+        <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+          <div class="flex-1">
+            <a href="#" class="block mt-2">
+              <p class="text-xl font-semibold text-gray-900">Feature Changes</p>
+              <p class="mt-3 text-base text-gray-500">As Monero evolves, new features emerge. We stay up to date with any feature changes within Monero so that you don’t have to worry about it.<br>
+                At MyMonero we make sure to add all new features to the infrastructure as well as follow through with this on the client-side code.
+                </p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+        <div class="flex-shrink-0">
+          <img class="h-48 w-full object-cover" src="src/assets/images/feat-img05.png" alt="">
+        </div>
+        <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+          <div class="flex-1">
+            <a href="#" class="block mt-2">
+              <p class="text-xl font-semibold text-gray-900">Unlimited Horizontal Scaling</p>
+              <p class="mt-3 text-base text-gray-500">Our server infrastructure can easily handle running large volumes of Monero multi-asset wallets at the same time, which means that each of our partners 
+                could have user bases of tens of thousands or larger. <br><br>
+
+                We further have the ability to scale horizontally by adding additional machine resources to our existing infrastructure at any point in time, as and when needed. 
+                This puts us in a position to offer a highly scalable, lightweight, non-custodial Monero wallet hosting service.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+        <div class="flex-shrink-0">
+          <img class="h-48 w-full object-cover" src="src/assets/images/feat-img06.png" alt="">
+        </div>
+        <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+          <div class="flex-1">
+            <a href="#" class="block mt-2">
+              <p class="text-xl font-semibold text-gray-900">Performant Scanning</p>
+              <p class="mt-3 text-base text-gray-500">Our infrastructure is engineered to scan large wallet quantities simultaneously.<br>
+                Even if users have not opened their wallets for several weeks, upon accessing their wallet again, they will not need to wait for the entire blockchain to be scanned. <br><br>
+
+                Many other solutions will scan the full blockchain, leaving the user frustrated whilst waiting for the new blocks to be added. There is no waiting time with MyMonero - 
+                users simply open their wallets and are ready to transact.
+                </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
@@ -256,7 +257,7 @@
 <script>
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import { MenuIcon, XIcon } from '@heroicons/vue/outline'
-import { NewspaperIcon, PhoneIcon, SupportIcon } from '@heroicons/vue/outline'
+import { NewspaperIcon, PhoneIcon, SupportIcon, AnnotationIcon, DeviceMobileIcon, PuzzleIcon, QuestionMarkCircleIcon, UserIcon, InformationCircleIcon } from '@heroicons/vue/outline'
 
 const navigation = [
   { name: 'Product Highlights & Features', href: '#' },
@@ -284,41 +285,62 @@ export default {
   },
 }
 
+
 // This is Product Highlights
 const supportLinks = [
   {
     name: 'ABOUT MYMONERO',
-    description:
-      'MyMonero exists as an enterprise solution for multi-asset wallet companies and exchange services.\nWe have engineered and built the infrastructure that can enable any multi-asset wallet to support Monero. What makes us unique is that we are able to provide a Monero solution at scale. There is no limit to the number of end user wallets that we are able to handle. This service is available to all multi-asset wallet companies and exchanges. ',
-    icon: PhoneIcon,
+      description:
+      'MyMonero exists as an enterprise solution for multi-asset wallet companies and exchange services.',
+      description2:
+      'We have engineered and built the infrastructure that can enable any multi-asset wallet to support Monero.',
+      description3:
+      'What makes us unique is that we are able to provide a Monero solution at scale. There is no limit to the number of end user wallets that we are able to handle. ',
+      description4:
+      'This service is available to all multi-asset wallet companies and exchanges.',
+    icon: DeviceMobileIcon,
   },
   {
     name: 'WHAT WE HAVE BUILT',
-    href: '#',
-    description:
-      'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
-    icon: SupportIcon,
+      description:
+      'We are currently the only highly scalable, non-custodial, lightweight wallet hosting service for Monero.',
+      description2:
+      'There are numerous barriers for multi-asset wallets or exchanges looking to get involved with Monero. Hosting Monero is very heavy, challenging and finding developers with the right skill-set is hard. Another challenge is dealing with hard-fork updates, and other updates to the actual Monero code. ',
+      description3:
+      'Our team works on Monero all day every day, and this makes us the best option to power your wallet’s Monero functionality. You no longer have to build your own Monero solution, simply plug into our API and we’ll do all the heavy lifting for you.',
+      description4:
+      'We maintain the infrastructure. You simply pay a small fee per active wallet for our service and then sit back, relax and enjoy the ride.',
+    icon: PuzzleIcon,
   },
   {
-    name: 'Media Inquiries',
-    href: '#',
-    description:
-      'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
-    icon: NewspaperIcon,
+    name: 'WHY WE HAVE BUILT IT',
+      description:
+      'Businesses that want to add and support Monero very often find it to be more challenging than they initially thought.',
+      description2:
+      'We have created a fully loaded backend solution that makes supporting Monero much more accessible, manageable, and affordable to all multi-asset wallet companies and exchanges.',
+      description3:
+      'Our infrastructure is incredibly powerful, and this power is ultimately transferred to the end user, resulting in a great user experience. This means that more people can have access to Monero, a cryptocurrency that provides them with complete financial privacy.',
+    icon: QuestionMarkCircleIcon,
   },
   {
-    name: 'Media Inquiries',
-    href: '#',
-    description:
-      'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
-    icon: NewspaperIcon,
+    name: 'WHO IT IS BUILT FOR',
+      description:
+      'Our service is designed for all multi-asset software and hardware wallet companies, as well as exchange platforms.',
+      description2:
+      'This includes enterprises who already offer Monero in their portfolio, but would like to reduce their overheads and improve Monero functionality.',
+      description3:
+      'It also includes those who have not yet integrated with Monero, but would like to.',
+    icon: UserIcon,
   },
   {
-    name: 'Media Inquiries',
-    href: '#',
-    description:
-      'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
-    icon: NewspaperIcon,
+    name: 'WHY YOU SHOULD CARE',
+      description:
+      'It is challenging to build a fast, user-friendly backend solution for Monero. When Monero users get frustrated with their transactions, they begin looking for alternative wallets with  better Monero functionality. Their frustrations may stem from the necessity to download the entire blockchain, the wallet scanning may be very slow or they may just have a poor experience in general.',
+      description2:
+      'This could lead to a number of repercussions for your business, one major one being the loss of trust and hence losing out on future transactions from users that have moved on to a competitor. In order to retain your Monero user-base and ensure user growth, your backend Monero functionality needs to be rock solid.',
+      description3:
+      'You will not find a better or more powerful backend solution than MyMonero.',
+    icon: InformationCircleIcon,
   },
 ]
 

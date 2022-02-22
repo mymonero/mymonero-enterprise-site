@@ -4,6 +4,7 @@
 
 :root {
   --primary-yellow: #FFEE77;
+  --primary-dark-bg: #161616;
 }
 
 
@@ -16,24 +17,25 @@
 
 /* BACKGROUNDS */
 .background-menu {
-    background-color: #161616;
+    background-color: var(--primary-dark-bg);
 }
 .background-menu-mobile {
-    background-color: #161616;
+    background-color: var(--primary-dark-bg);
     opacity: 0.95;
 }
 .background-yellow {
     background-color: var(--primary-yellow);
+    padding-bottom: 70rem;
 }
 
 /* TEXT COLOUR */
 .menu-text-color {
-    color: #FFEE77;
+    color: var(--primary-yellow);
     padding-bottom: 5px;
     border-bottom: 4px solid transparent;
 }
 .menu-text-color:hover {
-    color: #FFEE77;
+    color: var(--primary-yellow);
     padding-bottom: 5px;
     border-bottom: 4px solid #00C0F8;
 }
@@ -48,13 +50,16 @@
 .button-main {
     color: #020202;
     font-weight: 600;
-    background-color: #FFEE77;
+    background-color: var(--primary-yellow);;
 }
 .button-main:hover {
     color: #020202;
     font-weight: 700;
     background-color: #DDCE67;
 }
+
+/* ALIGN */
+
 
 /* CUSTOM */
 .hero-h2 {
