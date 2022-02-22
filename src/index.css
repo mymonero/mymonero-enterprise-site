@@ -1,3 +1,75 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary-yellow: #FFEE77;
+}
+
+
+.banner {
+    background-image: url('src/assets/images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+/* BACKGROUNDS */
+.background-menu {
+    background-color: #161616;
+}
+.background-menu-mobile {
+    background-color: #161616;
+    opacity: 0.95;
+}
+.background-yellow {
+    background-color: var(--primary-yellow);
+}
+
+/* TEXT COLOUR */
+.menu-text-color {
+    color: #FFEE77;
+    padding-bottom: 5px;
+    border-bottom: 4px solid transparent;
+}
+.menu-text-color:hover {
+    color: #FFEE77;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #00C0F8;
+}
+.hero-text-color {
+    color: white;
+}
+.h1-text-color {
+    color: #111827;
+}
+
+/* BUTTONS */
+.button-main {
+    color: #020202;
+    font-weight: 600;
+    background-color: #FFEE77;
+}
+.button-main:hover {
+    color: #020202;
+    font-weight: 700;
+    background-color: #DDCE67;
+}
+
+/* CUSTOM */
+.hero-h2 {
+    padding-top: 10px;
+}
+
+.headers-padding {
+    padding-top: -10px;
+    padding-bottom: -40px;
+}
+
+.icon-product-1 {
+    background-image: url('src/assets/images/phonelink_lock.svg');
+}
+
+.small-box-gradient {
+    background-image: linear-gradient(to right, #14B6A6 , #0893B1);
+}
