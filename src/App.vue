@@ -1,7 +1,7 @@
 <template>
 
 <!----------------- MENU -------------->
-  <div class="relative bg-gray-50 overflow-hidden">
+  <div class="relative bg-gray-50 overflow-hidden ">
     <div class="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full" aria-hidden="true">
       <div class="relative h-full max-w-7xl mx-auto">
         <svg class="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2" width="404" height="784" fill="none" viewBox="0 0 404 784">
@@ -23,7 +23,7 @@
       </div>
     </div>
 
-    <div class="relative pt-6 pb-16 sm:pb-24 banner">
+    <div class="relative pt-6 pb-16 sm:pb-24 banner ">
       <Popover>
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
           <nav class="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
@@ -103,11 +103,11 @@
 <!-------------- PRODUCT HIGHLIGTS ------------>
   <div class="bg-white">
     <!-- Header -->
-    <div class="relative pb-32 bg-gray-800">
-      <div class="absolute inset-0 background-yellow">
+    <div class="relative pb-28 bg-gray-800">
+      <div class="absolute inset-0 background-yellow-size">
         <div class="absolute inset-0" aria-hidden="true" />
       </div>
-      <div class="relative max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
+      <div class="relative max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8">
         <h1 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center h1-text-color">Product Highlights</h1>
       </div>
     </div>
@@ -135,7 +135,7 @@
 
 
 <!---------- FEATURES --------------->
-<div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8 background-menu">
+<div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-18 lg:pb-28 lg:px-8 background-menu">
   <div class="absolute inset-0">
     <div class="h-1/3 sm:h-2/3 background-menu"></div>
   </div>
@@ -247,17 +247,176 @@
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<!------------ CLIENT LIBRARY --------------->
+<div class="relative pt-16 pb-18 px-4 sm:px-6 lg:pt-15 lg:pb-15 lg:px-8 bg-white">
+  <div class="absolute inset-0">
+    <div class="h-1/3 sm:h-2/3 bg-white"></div>
+  </div>
+  <div class="relative max-w-7xl mx-auto ">
+    <div class="text-center">
+      <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center">Well documented client-side libraries</h2>
+       <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">All you need to do is plug into our API and let us do the rest. We will make hosting Monero look easy!</p>
+    </div>
+
+    <div class="mt-12 max-w-lg mx-auto grid lg:grid-cols-1 lg:max-w-none">
+      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+        <div class="flex-shrink-0">
+          <img class="h-48 w-full object-cover" src="src/assets/images/client-img01.png" alt="">
+        </div>
+        <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+          <div class="flex-1">
+            <a href="#" class="block mt-2">
+              <p class="mt-3 text-base text-gray-500 text-center ">To start using our superior Monero wallet hosting service, simply send us a request and we will supply you with our well-written client-side API documentation.<br>
+              Our client-side software is fully open source and is compatible with the light wallet rest API. <br>
+              It is a constantly evolving document, and as new features are added, these are immediately built-in.
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </div>
 </div>
 
+<!--------------- CTA1 ---------------->
+  <div class="bg-white">
+    <div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-8 lg:px-8">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        <span class="block">Ready to dive in?</span>
+      </h2>
+      <div class="mt-8 flex justify-center">
+        <div class="inline-flex rounded-md shadow">
+          <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white button-main"> Dive in </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<hr>
+
+<!-------------- DIAGRAM ---------------->
+<div class="relative pt-16 pb-18 px-4 sm:px-6 lg:pt-15 lg:pb-15 lg:px-8 bg-white">
+  <div class="absolute inset-0">
+    <div class="h-1/3 sm:h-2/3 bg-white"></div>
+  </div>
+  <div class="relative max-w-7xl mx-auto ">
+    <div class="text-center">
+      <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center">Integrating<img class="diagram-logo" src="src/assets/images/monero-logo-diagram.svg" alt="">has never been easier</h2>
+    </div>
+
+<div>SPACE FOR DIAGRAM</div>
+    
+  </div>
+</div>
+
+<!------------- PRICING ----------------->
+<div class="background-menu">
+  <div class="max-w-7xl mx-auto py-24 px-4 bg-white sm:px-6 lg:px-8 background-menu">
+    <div class="text-center">
+      <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center hero-text-color">We offer the most competitive pricing</h2>
+       <p class="mt-1 max-w-1xl mx-auto text-xl text-gray-500 sm:mt-4 font-bold yellow-text-color">What is an active wallet?</p>
+       <p class="mt-1 max-w-1xl mx-auto text-xl text-gray-500 sm:mt-4 hero-text-color">To be considered an active wallet, a user would need to access their Monero specific wallet at least once per month.</p>
+    </div><br><br>
+    <!-- Tiers -->
+    <div class="price-border">
+    <div class="mt-18 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
+      <div v-for="tier in pricing.tiers" :key="tier.title" class="relative p-8  rounded-2xl shadow-sm flex flex-col">
+        <div class="flex-1">
+          <h3 class="text-xl font-semibold text-gray-900 hero-text-color">{{ tier.title }}</h3>
+          <p v-if="tier.mostPopular" class="absolute top-0 py-1.5 px-4 bg-indigo-500 rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">Most popular</p>
+          <p class="mt-4 flex text-gray-900">
+            <span class="text-5xl font-extrabold tracking-tight hero-text-color">${{ tier.price }}</span>
+            <span class="ml-4 text-xl font-semibold hero-text-color price-wallet-align">{{ tier.frequency }}</span>
+          </p>
+          <p class="mt-6 text-xl font-extrabold yellow-text-color">{{ tier.description }}</p>
+
+          <!-- Feature list -->
+          <ul role="list" class="mt-6 space-y-6">
+            <li v-for="feature in tier.features" :key="feature" class="flex">
+              <CheckIcon class="flex-shrink-0 w-6 h-6 text-indigo-500 yellow-text-color" aria-hidden="true" />
+              <span class="ml-3 text-gray-500 yellow-text-color">{{ feature }}</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+</div>
+  </div>
+</div>
+
+<!--------------- CTA2 ---------------->
+  <div class="bg-white">
+    <div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-8 lg:px-8">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        <span class="block">Start using MyMonero today.</span>
+      </h2>
+      <div class="mt-8 flex justify-center">
+        <div class="inline-flex rounded-md shadow">
+          <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white button-main"> Get started </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!----------------- SLA --------------->
+ <div class="relative pt-16 pb-24 px-4 sm:px-6 lg:pt-15 lg:pb-15 lg:px-8 background-yellow">
+  <div class="relative max-w-7xl mx-auto">
+    <div class="text-center">
+      <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center">Service-level Agreements (SLA’s)</h2>
+       <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">A level of support suited to your needs:</p>
+    </div>
+    <div class="mt-3 grid grid-cols-1 gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-4 ">
+      <div class="sla-container">
+        <div class="sla-text">Full support during <br>integration</div>
+        <img class="sla-img" src="src/assets/images/sla-1.svg" alt="">
+      </div>
+      <div class="sla-container">
+        <div class="sla-text">Full support after <br>integration</div>
+        <img class="sla-img" src="src/assets/images/sla-2.svg" alt="">
+      </div>
+      <div class="sla-container">
+        <div class="sla-text">Access to the <br>MyMonero infrastructure</div>
+        <img class="sla-img" src="src/assets/images/sla-3.svg" alt="">
+      </div>
+      <div class="sla-container">
+        <div class="sla-text">Unlimited wallet scaling</div>
+        <img class="sla-img" src="src/assets/images/sla-4.svg" alt="">
+      </div>
+      <div class="sla-container">
+        <div class="sla-text">No hidden fees or agendas</div>
+        <img class="sla-img" src="src/assets/images/sla-5.svg" alt="">
+      </div>
+      <div class="sla-container">
+        <div class="sla-text">Handling of all <br>hard fork updates</div>
+        <img class="sla-img" src="src/assets/images/sla-6.svg" alt="">
+      </div>
+      <div class="sla-container">
+        <div class="sla-text">No minimum fees</div>
+        <img class="sla-img" src="src/assets/images/sla-7.svg" alt="">
+      </div>
+      <div class="sla-container">
+        <div class="sla-text">21 days to make invoice payments</div>
+        <img class="sla-img" src="src/assets/images/sla-8.svg" alt="">
+      </div>
+    </div>
+  </div>
+  </div>
+
 
 </template>
 
+
 <script>
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
+import { CheckIcon } from '@heroicons/vue/outline'
 import { MenuIcon, XIcon } from '@heroicons/vue/outline'
-import { NewspaperIcon, PhoneIcon, SupportIcon, AnnotationIcon, DeviceMobileIcon, PuzzleIcon, QuestionMarkCircleIcon, UserIcon, InformationCircleIcon } from '@heroicons/vue/outline'
+import { DeviceMobileIcon, PuzzleIcon, QuestionMarkCircleIcon, UserIcon, InformationCircleIcon } from '@heroicons/vue/outline'
+import { DotsVerticalIcon } from '@heroicons/vue/solid'
 
 const navigation = [
   { name: 'Product Highlights & Features', href: '#' },
@@ -269,6 +428,13 @@ const navigation = [
   { name: 'Get in Touch', href: '#' },
 ]
 
+const projects = [
+  { name: 'Full support during integration', },
+  { name: 'Component Design', initials: 'CD', href: '#', members: 12, bgColor: 'bg-purple-600' },
+  { name: 'Templates', initials: 'T', href: '#', members: 16, bgColor: 'bg-yellow-500' },
+  { name: 'React Components', initials: 'RC', href: '#', members: 8, bgColor: 'bg-green-500' },
+]
+
 export default {
   components: {
     Popover,
@@ -276,11 +442,15 @@ export default {
     PopoverPanel,
     MenuIcon,
     XIcon,
+    CheckIcon,
+    DotsVerticalIcon,
   },
   setup() {
     return {
       navigation,
       supportLinks,
+      pricing,
+      projects,
     }
   },
 }
@@ -344,5 +514,55 @@ const supportLinks = [
   },
 ]
 
+// PRICING
+const pricing = {
+  tiers: [
+    {
+      title: 'Start-Up:',
+      price: 0.30,
+      frequency: 'per active wallet per month',
+      description: '1 - 10 000 wallets',
+      features: [
+        '24 hour turnaround time on support queries',
+        ],
+      cta: 'Monthly billing',
+      mostPopular: false,
+    },
+    {
+      title: 'Growth:',
+      price: 0.20,
+      frequency: 'per active wallet per month',
+      description: '10 001 - 100 000 wallets',
+      features: [
+        '12 hour turnaround time on support queries',
+        'Dedicated Support Person',
+        'Dedicated Account Manager',
+      ],
+      cta: 'Monthly billing',
+      mostPopular: false,
+    },
+    {
+      title: 'Scale:',
+      price: 0.15,
+      frequency: 'per active wallet per month',
+      description: '100 001 - 1000 000 wallets',
+      features: [
+        '6 hour turnaround time for support queries',
+        'Prioritized Wallet Scanning',
+        '99.9% Uptime',
+        'Dedicated Support Person',
+        'Dedicated Account Manager',
+      ],
+      cta: 'Monthly billing',
+      mostPopular: false,
+    },
+  ],
+}
+
 
 </script>
+
+
+
+
+

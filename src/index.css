@@ -15,6 +15,10 @@
     background-size: cover;
   }
 
+  .fixed-banner {
+      position: fixed;
+  }
+
 /* BACKGROUNDS */
 .background-menu {
     background-color: var(--primary-dark-bg);
@@ -23,9 +27,13 @@
     background-color: var(--primary-dark-bg);
     opacity: 0.95;
 }
-.background-yellow {
+.background-yellow-size {
     background-color: var(--primary-yellow);
     padding-bottom: 70rem;
+}
+
+.background-yellow {
+    background-color: var(--primary-yellow);
 }
 
 /* TEXT COLOUR */
@@ -46,11 +54,15 @@
     color: #111827;
 }
 
+.yellow-text-color {
+    color: var(--primary-yellow);
+}
+
 /* BUTTONS */
 .button-main {
     color: #020202;
     font-weight: 600;
-    background-color: var(--primary-yellow);;
+    background-color: var(--primary-yellow);
 }
 .button-main:hover {
     color: #020202;
@@ -59,7 +71,9 @@
 }
 
 /* ALIGN */
-
+.text-center {
+    text-align: center;
+}
 
 /* CUSTOM */
 .hero-h2 {
@@ -78,3 +92,44 @@
 .small-box-gradient {
     background-image: linear-gradient(to right, #14B6A6 , #0893B1);
 }
+
+.diagram-logo {
+    display: inline;
+    width: 5em;
+    padding: 0 15px 0 15px;
+}
+
+.price-border {
+    border: 1px solid var(--primary-yellow);
+    border-radius: 20px;
+}
+
+.price-wallet-align {
+    width: 50%;
+    line-height: 24px;
+}
+
+.sla-container {
+    position: relative;
+    padding: 10px;
+    height: 78px;
+    border-radius: 10px;
+    background-color: var(--primary-dark-bg);
+}
+
+.sla-text {
+    z-index: 5;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.sla-img {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 3.6em;
+    opacity: 0.1;
+}
+
