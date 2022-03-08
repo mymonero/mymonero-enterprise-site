@@ -128,6 +128,10 @@
     padding: 0 15px 0 15px;
 }
 
+.diagram-img {
+    padding: 20px 0 20px ;
+}
+
 .price-border {
     border: 1px solid var(--primary-yellow);
     border-radius: 20px;
