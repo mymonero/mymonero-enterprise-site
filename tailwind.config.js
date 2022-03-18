@@ -17,6 +17,7 @@ module.exports = {
       'lightsilver':'#f5f5f5',
       'blue': '#00C0F8',
       'charcoal':'111827',
+      'gray': '#dadada',
     },
   },
 
@@ -24,4 +25,6 @@ module.exports = {
     // require('@tailwindcss/forms'),
     // require('@tailwindcss/typography'),
   ],
+
+
 }

@@ -4,7 +4,7 @@
     <!-- Header -->
     <div class="relative pb-28 bg-gray-800">
       <div class="absolute inset-0 background-yellow-size">
-        <a name="product"></a><br>
+        <a name="product" hash="product"></a><br>
         <div class="absolute inset-0" aria-hidden="true" />
       </div>
       <div class="relative max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8">

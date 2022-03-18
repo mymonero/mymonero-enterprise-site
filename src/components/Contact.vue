@@ -124,7 +124,7 @@
                   <span id="message-max" class="text-sm text-gray-500">Max. 500 characters</span>
                 </div>
                 <div class="mt-1">
-                  <textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" aria-describedby="message-max" />
+                  <textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray rounded-md" aria-describedby="message-max" />
                 </div>
               </div>
               <div class="sm:col-span-2 sm:flex sm:justify-end">

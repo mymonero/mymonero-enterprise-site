@@ -9,7 +9,8 @@
       <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center">Integrating<img class="diagram-logo" src="src/assets/images/monero-logo-diagram.svg" alt="">has never been easier</h2>
     </div>
 
-  <img class="diagram-img" src="src/assets/images/diagram.svg" alt="">
+  <img class="diagram-img sm:invisible md:visible lg:visible xl:visible " src="src/assets/images/diagram.svg" alt="">
+  <img class="snap-center sm:hidden md:invisible lg:invisible xl:invisible " src="src/assets/images/diagram-m.svg" alt="">
     
   </div>
 </div>

@@ -1,15 +1,15 @@
 <template>
 
 <a name="faq">&nbsp;</a><br>
-  <div class="bg-gray-100">
+  <div class="bg-lightsilver">
     <div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-      <div class="max-w-3xl mx-auto divide-y-2 divide-gray-200">
+      <div class="max-w-3xl mx-auto divide-y-2 divide-charcoal">
         <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center">Frequently asked questions</h2>
-        <dl class="mt-6 space-y-6 divide-y divide-gray-200">
+        <dl class="mt-6 space-y-6 divide-y divide-charcoal">
           <Disclosure as="div" v-for="faq in faqs" :key="faq.question" class="pt-6" v-slot="{ open }">
             <dt class="text-lg">
-              <DisclosureButton class="text-left w-full flex justify-between items-start text-gray-400">
-                <span class="font-medium text-gray-900">
+              <DisclosureButton class="text-left w-full flex justify-between items-start text-charcoal">
+                <span class="font-medium text-charcoal">
                   {{ faq.question }}
                 </span>
                 <span class="ml-6 h-7 flex items-center">
@@ -18,10 +18,10 @@
               </DisclosureButton>
             </dt>
             <DisclosurePanel as="dd" class="mt-2 pr-12">
-              <p class="text-base text-gray-500">
+              <p class="text-base text-charcoal">
                 {{ faq.answer }}
               </p>
-              <p class="text-base text-gray-500"><br>
+              <p class="text-base text-charcoal"><br>
                 {{ faq.answer2 }}
               </p>
             </DisclosurePanel>

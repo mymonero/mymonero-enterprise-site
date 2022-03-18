@@ -12,7 +12,8 @@
     "@heroicons/vue": "^1.0.5",
     "@vue-icons/feather": "^1.0.19",
     "vue": "^3.2.25",
-    "vue-router": "^4.0.13"
+    "vue-router": "^4.0.13",
+    "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",
