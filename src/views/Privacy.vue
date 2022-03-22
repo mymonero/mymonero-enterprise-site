@@ -94,5 +94,23 @@ If you have any questions about this Privacy Policy or wish to exercise any of y
   </div>
 </div>
  
+<FooterVue />
 
   </template>
+
+
+<script>
+import FooterVue from '../components/Footer.vue'
+
+export default {
+  components: {
+    FooterVue,
+},
+  setup() {
+    return {
+     
+    }
+  },
+}
+
+</script>

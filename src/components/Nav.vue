@@ -54,10 +54,6 @@
           </PopoverPanel>
         </transition>
       </Popover>
-      
-
-
-
 
     </div>
   </div>

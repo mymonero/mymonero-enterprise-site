@@ -302,4 +302,23 @@ USA<br><br>
   </div>
 </div>
 
+<FooterVue />
+
   </template>
+
+
+<script>
+import FooterVue from '../components/Footer.vue'
+
+export default {
+  components: {
+    FooterVue,
+},
+  setup() {
+    return {
+     
+    }
+  },
+}
+
+</script>
