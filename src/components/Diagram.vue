@@ -9,10 +9,22 @@
       <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center">Integrating<img class="diagram-logo" src="src/assets/images/monero-logo-diagram.svg" alt="">has never been easier</h2>
     </div>
 
-  <img class="diagram-img invisible sm:visible" src="src/assets/images/diagram.svg" alt="">
+  <div class="diagram-img invisible sm:visible">{{Diagram}}</div>
+ 
   <img class="snap-center visible sm:hidden " src="src/assets/images/diagram-m.svg" alt="">
     
   </div>
 </div>
 
 </template>
+
+<script>
+import Diagram from 'public/diagram'
+
+function Avatar() {
+  return <Diagram src="/diagram.svg" alt="me" width="64" height="64" />
+}
+
+export default Avatar
+
+</script>
