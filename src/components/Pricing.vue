@@ -1,6 +1,6 @@
 <template>
 
-<a name="pricing">&nbsp;</a><br>
+<a name="pricing" id="pricing"></a>
 <div class="background-menu">
   <div class="max-w-7xl mx-auto py-24 px-4 bg-white sm:px-6 lg:px-8 background-menu">
     <div class="text-center">

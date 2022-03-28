@@ -1,6 +1,6 @@
 <template>
 
-<a name="faq">&nbsp;</a><br>
+<a name="faq" id="faq"></a>
   <div class="bg-lightsilver">
     <div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
       <div class="max-w-3xl mx-auto divide-y-2 divide-charcoal">
@@ -10,7 +10,9 @@
             <dt class="text-lg">
               <DisclosureButton class="text-left w-full flex justify-between items-start text-charcoal">
                 <span class="font-medium text-charcoal">
-                  {{ faq.question }}
+                 {{faq.question}}
+                </span>
+                <span class="font-medium text-charcoal">
                 </span>
                 <span class="ml-6 h-7 flex items-center">
                   <ChevronDownIcon :class="[open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform']" aria-hidden="true" />
@@ -19,10 +21,11 @@
             </dt>
             <DisclosurePanel as="dd" class="mt-2 pr-12">
               <p class="text-base text-charcoal">
-                {{ faq.answer }}
+               {{faq.answer}}
+
               </p>
               <p class="text-base text-charcoal"><br>
-                {{ faq.answer2 }}
+              {{faq.answer2}}
               </p>
             </DisclosurePanel>
           </Disclosure>

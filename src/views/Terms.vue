@@ -1,5 +1,6 @@
 <template>
 
+<a name="terms" id="terms"></a>
 <div class="relative pt-16 pb-24 px-4 sm:px-6 lg:pt-15 lg:pb-15 lg:px-8 banner">
   <div class="absolute inset-0">
     <div class="h-1/3 sm:h-2/3 bg-black"></div>

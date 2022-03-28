@@ -1,6 +1,6 @@
 <template>
 
-<a name="sla">&nbsp;</a><br>
+<a name="sla" id="sla"></a>
  <div class="relative pt-16 px-4 sm:px-6 lg:pt-15 lg:pb-15 lg:px-8 bg-yellow">
   <div class="relative max-w-7xl mx-auto">
     <div class="text-center">

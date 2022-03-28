@@ -77,7 +77,6 @@ const navigation = [
     name: 'Product Highlights & Features', 
     href: '/', 
     hash: '#product', 
-    component: 'Product',
   },
 
   { 

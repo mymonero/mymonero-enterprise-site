@@ -1,6 +1,6 @@
 <template>
 
-<a name="integration">&nbsp;</a><br>
+<a name="integration" id="integration"></a>
 <div class="relative pt-16 pb-18 px-4 sm:px-6 lg:pt-15 lg:pb-15 lg:px-8 bg-white">
   <div class="absolute inset-0">
     <div class="h-1/3 sm:h-2/3 bg-white"></div>

@@ -8,15 +8,15 @@
         <div class="footer-box">
           <div class="footer-text-header">LEGAL</div>
           <div class="footer-text">
-              <router-link to="/terms" class="nav-link link text-white text-primary display-4">Terms &amp; Conditions</router-link>
+              <router-link to="/terms#terms" class="nav-link link text-white text-primary display-4 footer-text-link">Terms &amp; Conditions</router-link>
               </div>
           <div class="footer-text">
-            <router-link to="/privacy" class="nav-link link text-white text-primary display-4">Privacy Policy</router-link>
+            <router-link to="/privacy#privacy" class="nav-link link text-white text-primary display-4 footer-text-link">Privacy Policy</router-link>
             </div>
         </div>
         <div class="footer-box">
           <div class="footer-text-header">COMPANY</div>
-          <div class="footer-text"><a class="footer-text-link" href="#">About</a></div>
+          <div class="footer-text"><a class="footer-text-link" href="/#product">About</a></div>
         </div>
       </div>
       <div class="footer-legal-container footer-text">
