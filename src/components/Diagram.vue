@@ -19,12 +19,15 @@
 </template>
 
 <script>
-import Diagram from 'public/diagram'
+import { Diagram } from './diagram.svg'
 
-function Avatar() {
-  return <Diagram src="/diagram.svg" alt="me" width="64" height="64" />
+export default {
+  components: {
+    Diagram,
+  },
+  setup() {
+    return {
+    }
+  },
 }
-
-export default Avatar
-
 </script>
