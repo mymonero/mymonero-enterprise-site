@@ -10,7 +10,7 @@
 
 
 .banner {
-    background-image: url('src/assets/images/hero-bg.png');
+    background-image: url('/hero-bg.png');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -21,9 +21,7 @@
   }
 
 /* BACKGROUNDS */
-.background-menu {
-    background-color: var(--primary-dark-bg);
-}
+
 .background-menu-mobile {
     background-color: var(--primary-dark-bg);
     opacity: 0.95;
@@ -38,14 +36,6 @@
     padding-bottom: 25rem;
 }
 
-.background-yellow {
-    background-color: var(--primary-yellow);
-}
-
-.background-grey {
-    background-color: var(--bg-light-grey);
-}
-
 /* TEXT COLOUR */
 .menu-text-color {
     color: var(--primary-yellow);
@@ -57,19 +47,7 @@
     padding-bottom: 5px;
     border-bottom: 4px solid #00C0F8;
 }
-.hero-text-color {
-    color: white;
-}
-.h1-text-color {
-    color: #111827;
-}
 
-.yellow-text-color {
-    color: var(--primary-yellow);
-}
-.testimonial-text-color {
-    color: #757575;
-}
 .testimonial-text-quote {
     color: #757575;
     opacity: 0.2;
@@ -112,10 +90,6 @@
 .headers-padding {
     padding-top: -10px;
     padding-bottom: -40px;
-}
-
-.icon-product-1 {
-    background-image: url('src/assets/images/phonelink_lock.svg');
 }
 
 .small-box-gradient {

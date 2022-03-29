@@ -7,7 +7,7 @@
         <div class="absolute inset-0" aria-hidden="true" />
       </div>
       <div class="relative max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8">
-        <h1 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center h1-text-color">Support for you</h1>
+        <h1 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center text-charcoal">Support for you</h1>
       </div>
     </div>
 

@@ -1,6 +1,6 @@
 <template>
 
-<footer class="background-menu footer-top" aria-labelledby="footer-heading">
+<footer class="bg-midnight footer-top" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
 
@@ -24,7 +24,7 @@
         </div>
 
       <div class="mt-12 footer-line pt-8">
-        <p class="text-base text-white-400 xl:text-center testimonial-text-color">&copy; 2022 MyMonero. All rights reserved.</p>
+        <p class="text-base text-white-400 xl:text-center text-silver">&copy; 2022 MyMonero. All rights reserved.</p>
       </div>
     </div>
   </footer>

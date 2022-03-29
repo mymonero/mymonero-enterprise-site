@@ -6,28 +6,14 @@
   </div>
   <div class="relative max-w-7xl mx-auto ">
     <div class="text-center">
-      <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center">Integrating<img class="diagram-logo" src="src/assets/images/monero-logo-diagram.svg" alt="">has never been easier</h2>
+      <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center">Integrating<img class="diagram-logo" src="/monero-logo-diagram.svg" alt="">has never been easier</h2>
     </div>
 
-  <div class="diagram-img invisible sm:visible">{{Diagram}}</div>
+  <div class="diagram-img invisible sm:visible"><img src="/diagram.svg" alt=""></div>
  
-  <img class="snap-center visible sm:hidden " src="src/assets/images/diagram-m.svg" alt="">
+  <img class="snap-center visible sm:hidden " src="/diagram-m.svg" alt="">
     
   </div>
 </div>
 
 </template>
-
-<script>
-import { Diagram } from './diagram.svg'
-
-export default {
-  components: {
-    Diagram,
-  },
-  setup() {
-    return {
-    }
-  },
-}
-</script>

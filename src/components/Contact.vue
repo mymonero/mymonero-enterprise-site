@@ -12,7 +12,7 @@
       <div class="relative bg-white shadow-xl contact-border-white">
         <div class="grid grid-cols-1 lg:grid-cols-3">
           <!-- Contact information -->
-          <div class="relative overflow-hidden py-10 px-6 sm:px-10 xl:p-12 background-yellow contact-border">
+          <div class="relative overflow-hidden py-10 px-6 sm:px-10 xl:p-12 bg-yellow contact-border">
             <div class="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
               <svg class="absolute inset-0 w-full h-full" width="343" height="388" viewBox="0 0 343 388" fill="none" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
                 <path d="M-99 461.107L608.107-246l707.103 707.107-707.103 707.103L-99 461.107z" fill="url(#linear1)" fill-opacity=".1" />
@@ -46,11 +46,11 @@
                 </defs>
               </svg>
             </div>
-            <h3 class="text-lg font-medium h1-text-color">Contact information</h3>
-            <p class="mt-6 text-base max-w-3xl h1-text-color"><b>Website:</b><br><a class="contact-link" href="https://www.enterprise.mymonero.com">enterprise.mymonero.com</a></p>
-            <p class="mt-6 text-base max-w-3xl h1-text-color"><b>Email:</b><br><a class="contact-link" href="mailto:partners@mymonero.com">partners@mymonero.com</a></p>
-            <p class="mt-6 text-base max-w-3xl h1-text-color"><b>Legal:</b><br><a class="contact-link" href="mailto:info@mymonero.com">info@mymonero.com</a></p>
-            <p class="mt-6 text-base max-w-3xl h1-text-color"><b>Head Office:</b><br><a class="testimonial-text-color">16192 Coastal Highway,<br>Lewes, Delaware,<br>USA</a></p>
+            <h3 class="text-lg font-medium text-charcoal">Contact information</h3>
+            <p class="mt-6 text-base max-w-3xl text-charcoal"><b>Website:</b><br><a class="contact-link" href="https://www.enterprise.mymonero.com">enterprise.mymonero.com</a></p>
+            <p class="mt-6 text-base max-w-3xl text-charcoal"><b>Email:</b><br><a class="contact-link" href="mailto:partners@mymonero.com">partners@mymonero.com</a></p>
+            <p class="mt-6 text-base max-w-3xl text-charcoal"><b>Legal:</b><br><a class="contact-link" href="mailto:info@mymonero.com">info@mymonero.com</a></p>
+            <p class="mt-6 text-base max-w-3xl text-charcoal"><b>Head Office:</b><br><a class="text-silver">16192 Coastal Highway,<br>Lewes, Delaware,<br>USA</a></p>
             
             <ul role="list" class="mt-8 flex space-x-12">
               <li>

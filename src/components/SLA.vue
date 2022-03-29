@@ -10,35 +10,35 @@
     <div class="mt-3 grid grid-cols-1 gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-4 ">
       <div class="sla-container">
         <div class="sla-text">Full support during <br>integration</div>
-        <img class="sla-img" src="src/assets/images/sla-1.svg" alt="">
+        <img class="sla-img" src="/sla-1.svg" alt="">
       </div>
       <div class="sla-container">
         <div class="sla-text">Full support after <br>integration</div>
-        <img class="sla-img" src="src/assets/images/sla-2.svg" alt="">
+        <img class="sla-img" src="/sla-2.svg" alt="">
       </div>
       <div class="sla-container">
         <div class="sla-text">Access to the MyMonero<br>infrastructure</div>
-        <img class="sla-img" src="src/assets/images/sla-3.svg" alt="">
+        <img class="sla-img" src="/sla-3.svg" alt="">
       </div>
       <div class="sla-container">
         <div class="sla-text sla-align">Unlimited wallet scaling</div>
-        <img class="sla-img" src="src/assets/images/sla-4.svg" alt="">
+        <img class="sla-img" src="/sla-4.svg" alt="">
       </div>
       <div class="sla-container">
         <div class="sla-text sla-align">No hidden fees or agendas</div>
-        <img class="sla-img" src="src/assets/images/sla-5.svg" alt="">
+        <img class="sla-img" src="/sla-5.svg" alt="">
       </div>
       <div class="sla-container">
         <div class="sla-text">Handling of all hard fork<br>updates</div>
-        <img class="sla-img" src="src/assets/images/sla-6.svg" alt="">
+        <img class="sla-img" src="/sla-6.svg" alt="">
       </div>
       <div class="sla-container">
         <div class="sla-text sla-align">No minimum fees</div>
-        <img class="sla-img" src="src/assets/images/sla-7.svg" alt="">
+        <img class="sla-img" src="/sla-7.svg" alt="">
       </div>
       <div class="sla-container">
         <div class="sla-text">21 days to make invoice payments</div>
-        <img class="sla-img" src="src/assets/images/sla-8.svg" alt="">
+        <img class="sla-img" src="/sla-8.svg" alt="">
       </div>
     </div>
   </div>

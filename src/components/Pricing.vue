@@ -1,31 +1,31 @@
 <template>
 
 <a name="pricing" id="pricing"></a>
-<div class="background-menu">
-  <div class="max-w-7xl mx-auto py-24 px-4 bg-white sm:px-6 lg:px-8 background-menu">
+<div class="bg-midnight">
+  <div class="max-w-7xl mx-auto py-24 px-4 bg-white sm:px-6 lg:px-8 bg-midnight">
     <div class="text-center">
-      <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center hero-text-color">We offer the most competitive pricing</h2>
-       <p class="mt-1 max-w-1xl mx-auto text-xl text-gray-500 sm:mt-4 font-bold yellow-text-color">What is an active wallet?</p>
-       <p class="mt-1 max-w-1xl mx-auto text-xl text-gray-500 sm:mt-4 hero-text-color">To be considered an active wallet, a user would need to access their Monero specific wallet at least once per month.</p>
+      <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center text-white">We offer the most competitive pricing</h2>
+       <p class="mt-1 max-w-1xl mx-auto text-xl text-gray-500 sm:mt-4 font-bold text-yellow">What is an active wallet?</p>
+       <p class="mt-1 max-w-1xl mx-auto text-xl text-gray-500 sm:mt-4 text-white">To be considered an active wallet, a user would need to access their Monero specific wallet at least once per month.</p>
     </div><br><br>
     <!-- Tiers -->
     <div class="price-border">
     <div class="mt-18 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
       <div v-for="tier in pricing.tiers" :key="tier.title" class="relative p-8  rounded-2xl shadow-sm flex flex-col">
         <div class="flex-1">
-          <h3 class="text-xl font-semibold text-gray-900 hero-text-color">{{ tier.title }}</h3>
+          <h3 class="text-xl font-semibold text-gray-900 text-white">{{ tier.title }}</h3>
           <p v-if="tier.mostPopular" class="absolute top-0 py-1.5 px-4 bg-indigo-500 rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">Most popular</p>
           <p class="mt-4 flex text-gray-900">
-            <span class="text-5xl font-extrabold tracking-tight hero-text-color">${{ tier.price }}</span>
-            <span class="ml-4 text-xl font-semibold hero-text-color price-wallet-align">{{ tier.frequency }}</span>
+            <span class="text-5xl font-extrabold tracking-tight text-white">${{ tier.price }}</span>
+            <span class="ml-4 text-xl font-semibold text-white price-wallet-align">{{ tier.frequency }}</span>
           </p>
-          <p class="mt-6 text-xl font-extrabold yellow-text-color">{{ tier.description }}</p>
+          <p class="mt-6 text-xl font-extrabold text-yellow">{{ tier.description }}</p>
 
           <!-- Feature list -->
           <ul role="list" class="mt-6 space-y-6">
             <li v-for="feature in tier.features" :key="feature" class="flex">
-              <CheckIcon class="flex-shrink-0 w-6 h-6 text-indigo-500 yellow-text-color" aria-hidden="true" />
-              <span class="ml-3 text-gray-500 yellow-text-color">{{ feature }}</span>
+              <CheckIcon class="flex-shrink-0 w-6 h-6 text-indigo-500 text-yellow" aria-hidden="true" />
+              <span class="ml-3 text-gray-500 text-yellow">{{ feature }}</span>
             </li>
           </ul>
         </div>

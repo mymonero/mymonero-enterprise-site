@@ -14,7 +14,7 @@
     <div class="mt-12 max-w-lg mx-auto grid lg:grid-cols-1 lg:max-w-none">
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="src/assets/images/client-img01.png" alt="">
+          <img class="h-48 w-full object-cover" src="/client-img01.png" alt="">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">

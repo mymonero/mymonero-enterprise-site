@@ -1,18 +1,18 @@
 <template>
 
 <!---------- FEATURES --------------->
-<div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-18 lg:pb-28 lg:px-8 background-menu">
+<div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-18 lg:pb-28 lg:px-8 bg-midnight">
   <div class="absolute inset-0">
     <div class="h-1/3 sm:h-2/3 background-menu"></div>
   </div>
   <div class="relative max-w-7xl mx-auto ">
     <div class="text-center">
-      <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center hero-text-color">Key Features</h2>
+      <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center text-white">Key Features</h2>
     </div>
     <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="src/assets/images/feat-img01.png" alt="">
+          <img class="h-48 w-full object-cover" src="/feat-img01.png" alt="">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
@@ -26,7 +26,7 @@
 
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="src/assets/images/feat-img02.png" alt="">
+          <img class="h-48 w-full object-cover" src="/feat-img02.png" alt="">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
@@ -45,7 +45,7 @@
 
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="src/assets/images/feat-img03.png" alt="">
+          <img class="h-48 w-full object-cover" src="/feat-img03.png" alt="">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
@@ -62,7 +62,7 @@
     <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="src/assets/images/feat-img04.png" alt="">
+          <img class="h-48 w-full object-cover" src="/feat-img04.png" alt="">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
@@ -78,7 +78,7 @@
 
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="src/assets/images/feat-img05.png" alt="">
+          <img class="h-48 w-full object-cover" src="/feat-img05.png" alt="">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
@@ -96,7 +96,7 @@
 
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="src/assets/images/feat-img06.png" alt="">
+          <img class="h-48 w-full object-cover" src="/feat-img06.png" alt="">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
