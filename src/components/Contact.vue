@@ -84,7 +84,11 @@
 
           <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
             <h3 class="text-lg font-medium text-gray-900">Send us a message</h3>
-            <form action="/success" method="POST" name="mymonero-contactus" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" data-netlify=true>
+            <form method="POST" action="success" name="contact_us" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact_us" />
+              <p className="hidden">
+                  <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+              </p>
               <div>
                 <label for="first-name" class="block text-sm font-medium text-gray-900">First name</label>
                 <div class="mt-1">
