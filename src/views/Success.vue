@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Oops, looks like something went wrong!</h1>
-    <router-link to="/">
+    <h1>You're Awesome! Thank you for your submission!</h1>
+    <router-link to="/home">
       <button>Back to form</button>
     </router-link>
   </div>
@@ -9,6 +9,6 @@
 
 <script>
   export default {
-    name: "SubmissionFail"
+    name: "success"
   }
-</script>
+</script> 
