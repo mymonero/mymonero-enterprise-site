@@ -84,7 +84,7 @@
 
           <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
             <h3 class="text-lg font-medium text-gray-900">Send us a message</h3>
-            <form name="contact" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" netlify>
+            <form action="/success" method="POST" name="contact" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" netlify>
               <div>
                 <label for="first-name" class="block text-sm font-medium text-gray-900">First name</label>
                 <div class="mt-1">
