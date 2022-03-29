@@ -84,11 +84,7 @@
 
           <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
             <h3 class="text-lg font-medium text-gray-900">Send us a message</h3>
-            <form action="success" method="POST" name="contact_us" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" netlify="true" data-netlify-honeypot="bot-field">
-              <input type="hidden" name="form-name" value="contact_us" />
-                <p className="hidden">
-                    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-                </p>
+            <form name="contact" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" netlify>
               <div>
                 <label for="first-name" class="block text-sm font-medium text-gray-900">First name</label>
                 <div class="mt-1">
