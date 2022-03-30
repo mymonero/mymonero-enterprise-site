@@ -142,7 +142,7 @@
   </div>
 
 TEST
-<form name="contact2" method="POST" data-netlify="true">
+<form name="contact2" method="POST" data-netlify="true" netlify>
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
