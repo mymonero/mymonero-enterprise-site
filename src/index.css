@@ -22,6 +22,10 @@
 
 /* BACKGROUNDS */
 
+.bg-black-full {
+    height: 100%;
+}
+
 .background-menu-mobile {
     background-color: var(--primary-dark-bg);
     opacity: 0.95;
