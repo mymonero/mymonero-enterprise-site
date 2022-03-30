@@ -92,19 +92,19 @@
               <div>
                 <label for="first-name" class="block text-sm font-medium text-gray-900">First name</label>
                 <div class="mt-1">
-                  <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 rounded-md contact-form-border" />
+                  <input type="text" required name="first-name" id="first-name" autocomplete="given-name" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 rounded-md contact-form-border" />
                 </div>
               </div>
               <div>
                 <label for="last-name" class="block text-sm font-medium text-gray-900">Last name</label>
                 <div class="mt-1">
-                  <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 rounded-md contact-form-border" />
+                  <input type="text" required name="last-name" id="last-name" autocomplete="family-name" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 rounded-md contact-form-border" />
                 </div>
               </div>
               <div>
                 <label for="email" class="block text-sm font-medium text-gray-900">Email</label>
                 <div class="mt-1">
-                  <input id="email" name="email" type="email" autocomplete="email" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 rounded-md contact-form-border" />
+                  <input id="email" name="email" required type="email" autocomplete="email" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 rounded-md contact-form-border" />
                 </div>
               </div>
               <div>
@@ -119,7 +119,7 @@
               <div class="sm:col-span-2">
                 <label for="subject" class="block text-sm font-medium text-gray-900">Subject</label>
                 <div class="mt-1">
-                  <input type="text" name="subject" id="subject" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 rounded-md contact-form-border" />
+                  <input type="text" required name="subject" id="subject" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 rounded-md contact-form-border" />
                 </div>
               </div>
               <div class="sm:col-span-2">
@@ -128,7 +128,7 @@
                   <span id="message-max" class="text-sm text-gray-500">Max. 500 characters</span>
                 </div>
                 <div class="mt-1">
-                  <textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray rounded-md" aria-describedby="message-max" />
+                  <textarea id="message" required maxlength="500" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray rounded-md" aria-describedby="message-max" />
                 </div>
               </div>
               <div class="sm:col-span-2 sm:flex sm:justify-end">
