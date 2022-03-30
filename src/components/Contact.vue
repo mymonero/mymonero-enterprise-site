@@ -82,7 +82,11 @@
 
           <!-- Contact form -->
 
-
+          
+        </div>
+      </div>
+    </div>
+  </div>
 
 TEST
 <form name="contact2" method="POST" enctype="application/x-www-form-urlencoded" data-netlify="true" netlify>
