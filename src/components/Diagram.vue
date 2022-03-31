@@ -8,11 +8,10 @@
     <div class="text-center">
       <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center">Integrating<img class="diagram-logo" src="/monero-logo-diagram.svg" alt="">has never been easier</h2>
     </div>
-
-  <div class="diagram-img invisible sm:visible"><img src="/diagram.svg" alt=""></div>
- 
-  <img class="snap-center visible sm:hidden " src="/diagram-m.svg" alt="">
-    
+    <div class="diagram-img invisible sm:visible"><img src="/diagram.svg" alt=""></div>
+    <div class="flex justify-center">
+      <img class="visible pb-5 sm:hidden" src="/diagram-m.svg" alt="">
+    </div>
   </div>
 </div>
 
