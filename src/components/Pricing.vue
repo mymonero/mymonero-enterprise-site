@@ -104,7 +104,7 @@ const pricing = {
       title: 'Scale:',
       price: '0.15',
       frequency: 'per active wallet per month',
-      description: '100 001 - 1000 000 wallets',
+      description: '100 001 - 1 000 000 wallets',
       features: [
         '6 hour turnaround time for support queries',
         'Prioritized Wallet Scanning',
