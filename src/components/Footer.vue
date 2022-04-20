@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="footer-legal-container footer-text">
-          For all legal matters or queries, please contact us via email at: <a class="footer-legal-link" href="mailto:info@mymonero.com">info@mymonero.com</a>
+          For all legal matters or queries, please get in touch with us via email at: <a class="footer-legal-link" href="mailto:info@mymonero.com">info@mymonero.com</a>
         </div>
 
       <div class="mt-12 footer-line pt-8">

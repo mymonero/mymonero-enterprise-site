@@ -55,9 +55,9 @@ const supportLinks = [
   {
     name: 'Pre-Sale',
       description:
-      'We have a highly motivated sales team who can broaden your understanding of the services that we offer. They can answer any questions that you may have and show you how our service can benefit your business.',
+      'We have a highly motivated sales team who can broaden your understanding of the services we offer. They can answer any questions you may have and show you how our service can benefit your business.',
       description2:
-      'They will also ensure that all invoicing and billing are processed correctly once you have come on board.',
+      'They will also ensure that all invoicing and billing are processed once you have come on board.',
     icon: PhoneIcon,
   },
   {

@@ -32,10 +32,9 @@
           <div class="flex-1">
             <a href="#" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">Lightweight Nature For Clients</p>
-              <p class="mt-3 text-base text-gray-500">Many multi-asset wallet services choose to run the full Monero node themselves, which can mean that their wallet users are forced to download the entire Monero blockchain. 
-                This takes an extremely long time to do andt will also use up a very large amount of space on the user’s device. <br><br>
-
-                We offer a lightweight wallet experience, where we run all of the heavy stuff on our backend. This means that neither our enterprise partners nor the end wallet users will ever have to download the entire Monero blockchain. 
+              <p class="mt-3 text-base text-gray-500">Many multi-asset wallet services choose to run the full Monero node themselves, meaning that their wallet users are forced to download the entire Monero blockchain. 
+                This takes an extremely long time and will also use up a substantial amount of space on the user’s device.<br><br>
+                We offer a lightweight wallet experience, where we run all of the heavy stuff on our backend. As a result, neither our enterprise partners nor the end wallet users will have to download the entire Monero blockchain. 
                 This ensures that wallet users will have a completely lightweight and smooth experience.
                 </p>
             </a>
@@ -52,7 +51,7 @@
             <a href="#" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">Protocol Updates</p>
               <p class="mt-3 text-base text-gray-500">We will handle all protocol updates in-house; this also includes bi-annual hardfork updates. 
-                If any additional updates are required to fall in line with the Monero project, we will action these on our end.</p>
+                If any additional updates are required to align with the Monero project, we will action these on our end.</p>
             </a>
           </div>
         </div>
@@ -69,7 +68,7 @@
             <a href="#" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">Feature Changes</p>
               <p class="mt-3 text-base text-gray-500">As Monero evolves, new features emerge. We stay up to date with any feature changes within Monero so that you don’t have to worry about it.<br>
-                At MyMonero we make sure to add all new features to the infrastructure as well as follow through with this on the client-side code.
+                At MyMonero, we ensure we add all new features to the infrastructure and follow through with this on the client-side code. 
                 </p>
             </a>
           </div>
@@ -84,11 +83,10 @@
           <div class="flex-1">
             <a href="#" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">Unlimited Horizontal Scaling</p>
-              <p class="mt-3 text-base text-gray-500">Our server infrastructure can easily handle running large volumes of Monero multi-asset wallets at the same time, which means that each of our partners 
-                could have user bases of tens of thousands or larger. <br><br>
-
-                We further have the ability to scale horizontally by adding additional machine resources to our existing infrastructure at any point in time, as and when needed. 
-                This puts us in a position to offer a highly scalable, lightweight, non-custodial Monero wallet hosting service.</p>
+              <p class="mt-3 text-base text-gray-500">Our server infrastructure can easily handle running large volumes of Monero multi-asset wallets simultaneously, 
+                which means that each of our partners could have user bases of tens of thousands or larger.<br><br>
+                Furthermore, we can scale horizontally by adding additional machine resources 
+                to our existing infrastructure at any time, as and when needed. This puts us in a position to offer a highly scalable, lightweight, non-custodial Monero wallet hosting service.</p>
             </a>
           </div>
         </div>
@@ -103,10 +101,9 @@
             <a href="#" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">Performant Scanning</p>
               <p class="mt-3 text-base text-gray-500">Our infrastructure is engineered to scan large wallet quantities simultaneously.<br>
-                Even if users have not opened their wallets for several weeks, upon accessing their wallet again, they will not need to wait for the entire blockchain to be scanned. <br><br>
-
-                Many other solutions will scan the full blockchain, leaving the user frustrated whilst waiting for the new blocks to be added. There is no waiting time with MyMonero - 
-                users simply open their wallets and are ready to transact.
+                Even if users have not opened their wallets for weeks, upon re-accessing their wallet, they won’t need to wait for the entire blockchain to be scanned. <br><br>
+                Many other solutions will scan the entire blockchain, leaving the user frustrated while waiting for the new blocks to be added. <br>
+                There is no waiting time with MyMonero - users open their wallets and are ready to transact immediately.
                 </p>
             </a>
           </div>

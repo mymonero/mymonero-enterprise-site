@@ -6,7 +6,7 @@
     <div class="text-center">
       <h2 class="text-4xl font-light tracking-tight md:text-4xl lg:text-5xl text-center text-white">We offer the most competitive pricing</h2>
        <p class="mt-1 max-w-1xl mx-auto text-xl text-gray-500 sm:mt-4 font-bold text-yellow">What is an active wallet?</p>
-       <p class="mt-1 max-w-1xl mx-auto text-xl text-gray-500 sm:mt-4 text-white">To be considered an active wallet, a user would need to access their Monero specific wallet at least once per month.</p>
+       <p class="mt-1 max-w-1xl mx-auto text-xl text-gray-500 sm:mt-4 text-white">To be considered an active wallet, users need to access their Monero-specific wallet at least once per month.</p>
     </div><br><br>
     <!-- Tiers -->
     <div class="price-border">

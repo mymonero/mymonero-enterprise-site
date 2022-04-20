@@ -19,9 +19,9 @@
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
             <a href="#" class="block mt-2">
-              <p class="mt-3 text-base text-gray-500 text-center ">To start using our superior Monero wallet hosting service, simply send us a request and we will supply you with our well-written client-side API documentation.<br>
-              Our client-side software is fully open source and is compatible with the light wallet rest API. <br>
-              It is a constantly evolving document, and as new features are added, these are immediately built-in.
+              <p class="mt-3 text-base text-gray-500 text-center ">To start using our superior Monero wallet hosting service, simply send us a request, and we will supply you with our well-written client-side API documentation.<br>
+Our client-side software is a fully open-source and is compatible with the light wallet rest API. <br>
+It is a constantly evolving document, and as new features are added, these are immediately built-in.
               </p>
             </a>
           </div>
