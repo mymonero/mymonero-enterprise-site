@@ -1,6 +1,6 @@
 <template>
 
-<a name="partner" id="partner"></a><br><br><br>
+<a name="partner" id="partner"></a><br>
   <section class="bg-white-800">
 
     <div class="relative max-w-7xl mx-auto ">
